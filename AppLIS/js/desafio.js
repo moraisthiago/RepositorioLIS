@@ -19,4 +19,5 @@ sobrenome = ""
 for (let i = 1; i < divisaoNome.length; i++){
   sobrenome += divisaoNome[i] + " "
 }
+sobrenome = sobrenome.trim()
 console.log(sobrenome);
