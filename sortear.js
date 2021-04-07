@@ -10,4 +10,3 @@ function sortear()
   document.getElementById('body').replaceChild(p, p1);
 
 }
-console.log(matriculas[Math.floor(Math.random() * (20 - 0) + 0)]);
