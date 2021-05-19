@@ -1,6 +1,8 @@
 import dataset from './model/dataset.js';
 import foodsModel from './model/food.js';
 
+const formFood = document.querySelector('#formFood');
+
 function loadFoods()
 {
 
@@ -23,7 +25,7 @@ function addItem(item)
   let cardHTML = `
     <div class='col'>
       <div class='card' style='width: 18rem;'>
-        <img src='image/${item.image}' class='card-img-top' alt='...'>
+        <img src='images/${item.image}' class='card-img-top' alt='...'>
         <div class='card-body'>
           <h5 class='card-title'>${item.name}</h5>
           <p class='card-text'>${item.description}</p>
